@@ -1,95 +1,87 @@
+<p> 1. Ipython version - 1.2.1</p>
 
-1. Ipython version - 1.2.1
+<p>2.In [3]: from numpy.random import randn</p>
 
-2.In [3]: from numpy.random import randn
+<p>In [4]: Data = {i: randn() for i in range(7)}</p>
 
-In [4]: Data = {i: randn() for i in range(7)}
+<p>In [5]: print Data {0: -0.10433160414940461, 1: -1.227973610861549, 2: -1.3015259143724722, 3: 0.8394310526898473, 4: -1.7454125530920297, 5: -1.0354926012123051, 6: 1.476458298412451}</p>
 
-In [5]: print Data
-{0: -0.10433160414940461, 1: -1.227973610861549, 2: -1.3015259143724722, 3: 0.8394310526898473, 4: -1.7454125530920297, 5: -1.0354926012123051, 6: 1.476458298412451}
+<p> 3.In [3]: from numpy.random import randn</p>
 
+<p>In [4]: Data = {i: randn() for i in range(7)}</p>
 
-3.In [3]: from numpy.random import randn
+<p>In [5]: print Data {0: -0.10433160414940461, 1: -1.227973610861549, 2: -1.3015259143724722, 3: 0.8394310526898473, 4: -1.7454125530920297, 5: -1.0354926012123051, 6: 1.476458298412451}</p>
 
-In [4]: Data = {i: randn() for i in range(7)}
+<p>By tabbing in the ipython environment, you can get the attributes of the object</p>
 
-In [5]: print Data
-{0: -0.10433160414940461, 1: -1.227973610861549, 2: -1.3015259143724722, 3: 0.8394310526898473, 4: -1.7454125530920297, 5: -1.0354926012123051, 6: 1.476458298412451}
+<p>4.In [8]: datetime. datetime.MAXYEAR datetime.datetime datetime.timedelta datetime.MINYEAR datetime.datetime_CAPI datetime.tzinfo datetime.date datetime.time </p>
 
-By tabbing in the ipython environment, you can get the attributes of the object
+<p>5. In [8]: b Out[8]: [1, 2, 3]</p>
 
-4.In [8]: datetime.
-datetime.MAXYEAR        datetime.datetime       datetime.timedelta
-datetime.MINYEAR        datetime.datetime_CAPI  datetime.tzinfo
-datetime.date           datetime.time           
+<p>6. In [11]: add_numbers Out[11]: <function __main__.add_numbers></p>
 
-5. In [8]: b
-Out[8]: [1, 2, 3]
+<p>In [12]: add_numbers?? Type: function String Form:<function add_numbers at 0x7fd0468f4140> File: /home/ubuntu01/<ipython-input-10-ffaa6169c7d5> Definition: add_numbers(a, b) Source: def add_numbers(a, b):  return a + b</p>
 
-6. In [11]: add_numbers
-Out[11]: <function __main__.add_numbers>
+<p>7. np.*load*? np.load np.loads np.loadtxt np.pkgload</p>
 
-In [12]: add_numbers??
-Type:       function
-String Form:<function add_numbers at 0x7fd0468f4140>
-File:       /home/ubuntu01/<ipython-input-10-ffaa6169c7d5>
-Definition: add_numbers(a, b)
-Source:
-def add_numbers(a, b):
-    return a + b
+<p>It is so we could get the top level namespace of numpy</p>
 
-7. np.*load*?
-np.load
-np.loads
-np.loadtxt
-np.pkgload
+<p>8. %run ipython_script_test.py</p>
 
-It is so we could get the top level namespace of numpy
+<p>9. 7.5  1.4666666666666 All the imports functions and etc. defined will be accessible to ipython Ipython is different because you can pass command line arguments</p>
 
-8. %run ipython_script_test.py
+<p>10.%run -i</p>
 
-9. 7.5
-   1.4666666666666
-All the imports functions and etc. defined will be accessible to ipython
-Ipython is different because you can pass command line arguments
+<p>11. Ipython will think that the indented block is over. </p>
 
-10.%run -i
+<p>12.THe difference is that it will execute it as a single block in the shell  %paste</p>
 
-11. Ipython will think that the indented block is over. 
+<p>13.PyDev and Python tools</p>
 
-12.THe difference is that it will execute it as a single block in the shell
- %paste
+<p>14.Ctrl P -Search backward Ctrl N -Search forward Ctrl R -Reverse history Ctrl Shift V -paste text Ctrl C -interrupt Ctrl A -move cursor to beginning  Ctrl E -move cursor to end Ctrl K -delete text Ctrl U -discard all text Ctrl F -move cursor forward one character Ctrl B -move cursor back one character Ctrl L -clear screen</p>
 
-13.PyDev and Python tools
+<p>15.Ipython prints a full call stack trace and some context on the position of each point</p>
 
-14.Ctrl P 	-Search backward
-Ctrl N 	  	-Search forward
-Ctrl R		-Reverse history
-Ctrl  Shift V	-paste text
-Ctrl C		-interrupt
-Ctrl A		-move cursor to beginning 
-Ctrl E		-move cursor to end
-Ctrl K		-delete text
-Ctrl U		-discard all text
-Ctrl F		-move cursor forward one character
-Ctrl B		-move cursor back one character
-Ctrl L		-clear screen
+<p>16. %xmode</p>
 
-15.Ipython prints a full call stack trace and some context on the position of each point
+<p>17. %quickref -dispay ipython quick reference %magic -doucmentation of all magic commands %debug -enter interactive debugger %hist -prints input history %paste -execute code from clipboard</p>
 
-16. %xmode
+<p>18.10000 loops, best of 3: 69.1 us per loop</p>
 
-17. %quickref	-dispay ipython quick reference
-%magic		-doucmentation of all magic commands
-%debug		-enter interactive debugger
-%hist		-prints input history
-%paste		-execute code from clipboard
+<p>19.Resets the namespace by removing all the names defined</p>
 
-18.10000 loops, best of 3: 69.1 us per loop
+<p>20.You can use magic functions without the % sign as long as there is no variable defined</p>
 
-19.Resets the namespace by removing all the names defined
+<p> Part 3</p>
 
-20.You can use magic functions without the % sign as long as there is no variable defined
+<p>2. ipython qtconsole --pylab=inline</p>
 
+<p>3. Yes it can launch multiple tabs by inputting the command Ctrl T, Yes it allows you to share a process with the Ipython html notebook</p>
 
+<p>Part 4</p>
 
+<p>2. This magic replaces IPython's threaded shells that were activated using the (pylab/wthread/etc.) command line flags.</p>
+
+<p>3. This function lets you activate matplotlib interactive support at any point during an IPython session. It does not import anything into the interactive namespace.</p>
+
+<p>4.%matplotlib</p>
+
+<p>5. You can resize it by clicking on the sonfigure subplots Double clicking the figure does nothing</p>
+
+<p>6. #!/usr/bin/env python</p>
+
+<p># implement the example graphs/integral from pyx from pylab import * from matplotlib.patches import Polygon</p>
+
+<p>def func(x):  return (x-3)*(x-5)*(x-7)+85</p>
+
+<p>ax = subplot(111)</p>
+
+<p>a, b = 2, 9 # integral area x = arange(0, 10, 0.01) y = func(x) plot(x, y, linewidth=1)</p>
+
+<p># make the shaded region ix = arange(a, b, 0.01) iy = func(ix) verts = [(a,0)] + list(zip(ix,iy)) + [(b,0)] poly = Polygon(verts, facecolor='0.8', edgecolor='k') ax.add_patch(poly)</p>
+
+<p>text(0.5 * (a + b), 30,  r&quot;$\int_a^b f(x)\mathrm{d}x$&quot;, horizontalalignment='center',  fontsize=20)</p>
+
+<p>axis([0,10, 0, 180]) figtext(0.9, 0.05, 'x') figtext(0.1, 0.9, 'y') ax.set_xticks((a,b)) ax.set_xticklabels(('a','b')) ax.set_yticks([]) show()</p>
+
+<p></p>
