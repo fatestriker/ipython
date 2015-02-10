@@ -1,0 +1,95 @@
+
+1. Ipython version - 1.2.1
+
+2.In [3]: from numpy.random import randn
+
+In [4]: Data = {i: randn() for i in range(7)}
+
+In [5]: print Data
+{0: -0.10433160414940461, 1: -1.227973610861549, 2: -1.3015259143724722, 3: 0.8394310526898473, 4: -1.7454125530920297, 5: -1.0354926012123051, 6: 1.476458298412451}
+
+
+3.In [3]: from numpy.random import randn
+
+In [4]: Data = {i: randn() for i in range(7)}
+
+In [5]: print Data
+{0: -0.10433160414940461, 1: -1.227973610861549, 2: -1.3015259143724722, 3: 0.8394310526898473, 4: -1.7454125530920297, 5: -1.0354926012123051, 6: 1.476458298412451}
+
+By tabbing in the ipython environment, you can get the attributes of the object
+
+4.In [8]: datetime.
+datetime.MAXYEAR        datetime.datetime       datetime.timedelta
+datetime.MINYEAR        datetime.datetime_CAPI  datetime.tzinfo
+datetime.date           datetime.time           
+
+5. In [8]: b
+Out[8]: [1, 2, 3]
+
+6. In [11]: add_numbers
+Out[11]: <function __main__.add_numbers>
+
+In [12]: add_numbers??
+Type:       function
+String Form:<function add_numbers at 0x7fd0468f4140>
+File:       /home/ubuntu01/<ipython-input-10-ffaa6169c7d5>
+Definition: add_numbers(a, b)
+Source:
+def add_numbers(a, b):
+    return a + b
+
+7. np.*load*?
+np.load
+np.loads
+np.loadtxt
+np.pkgload
+
+It is so we could get the top level namespace of numpy
+
+8. %run ipython_script_test.py
+
+9. 7.5
+   1.4666666666666
+All the imports functions and etc. defined will be accessible to ipython
+Ipython is different because you can pass command line arguments
+
+10.%run -i
+
+11. Ipython will think that the indented block is over. 
+
+12.THe difference is that it will execute it as a single block in the shell
+ %paste
+
+13.PyDev and Python tools
+
+14.Ctrl P 	-Search backward
+Ctrl N 	  	-Search forward
+Ctrl R		-Reverse history
+Ctrl  Shift V	-paste text
+Ctrl C		-interrupt
+Ctrl A		-move cursor to beginning 
+Ctrl E		-move cursor to end
+Ctrl K		-delete text
+Ctrl U		-discard all text
+Ctrl F		-move cursor forward one character
+Ctrl B		-move cursor back one character
+Ctrl L		-clear screen
+
+15.Ipython prints a full call stack trace and some context on the position of each point
+
+16. %xmode
+
+17. %quickref	-dispay ipython quick reference
+%magic		-doucmentation of all magic commands
+%debug		-enter interactive debugger
+%hist		-prints input history
+%paste		-execute code from clipboard
+
+18.10000 loops, best of 3: 69.1 us per loop
+
+19.Resets the namespace by removing all the names defined
+
+20.You can use magic functions without the % sign as long as there is no variable defined
+
+
+
